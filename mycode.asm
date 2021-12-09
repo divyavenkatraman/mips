@@ -25,3 +25,7 @@ beq $0, $1, end
 add $3, $3, $2 
 addi $0, 0xFF
 beq $1, $1, negloop
+end:
+clr $1
+sw $3, 0($1)
+
