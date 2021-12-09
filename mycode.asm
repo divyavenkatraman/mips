@@ -1,6 +1,6 @@
 addi $1, 0x5
 addi $2, 0x4
-sw $1, 0($2
+sw $1, 0($2)
 clr $2
 sra $2, $1, 0x8
 addi $3, 0xFF
