@@ -28,4 +28,3 @@ beq $1, $1, negloop
 end:
 clr $1
 sw $3, 0($1)
-
